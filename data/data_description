@@ -1,0 +1,4 @@
+Dataset Description
+Features: Spectral reflectance values measured at various wavelengths (498 set of features)
+Samples: Each row represents an individual corn sample. (500 samples)
+Target: DON concentration (continuous numerical value).
