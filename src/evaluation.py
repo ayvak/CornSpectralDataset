@@ -15,7 +15,7 @@ def inverse_transform(series, transform_params, col):
         series = np.exp(series) - shift_value
     return series
 
-def evaluate_regression(model, X_test, y_test, transform_params, target_col, log_transform=False):
+def evaluate_regression(model, X_test, y_test, transform_params, target_col):
     logging.info("Starting evaluation")
     y_pred = model.predict(X_test).flatten()
     
