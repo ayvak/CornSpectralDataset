@@ -3,7 +3,7 @@ import numpy as np
 from src.processing_draft import process_data
 from src.model_training import build_regression_model
 from src.evaluation import evaluate_regression
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler
 
 
 def test_process_data():
