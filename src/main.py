@@ -40,6 +40,7 @@ if __name__ == "__main__":
     
     # Train final model with best hyperparameters
     best_params = study.best_params
+    
     df, transformed = process_data("./data/MLE-Assignment.csv")
     X = df.drop(["vomitoxin_ppb"], axis=1).values
     y = df["vomitoxin_ppb"].values.reshape(-1, 1)
