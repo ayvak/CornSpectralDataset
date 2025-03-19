@@ -3,16 +3,16 @@ Analyzing and predicting the vomitoxin ppb value of a corn sample from hyperspec
 
 ### Project Structure
 CornSpectralDataset/   
-│ ├── data/  
-         │ └── MLE-Assignment.csv # The dataset file   
-│ ├── src/   
-         │ ├── processing_draft.py # Data preprocessing script   
-         │ ├── model_training.py # Model building and training script   
-         │ ├── evaluation.py # Model evaluation script   
-         │ └── main.py # Main script to run the project    
-│ └── test_pipeline.py # Unit tests for the project   
-│ ├── README.md # Project documentation   
-│ └── requirements.txt # Python dependencies  
+├── data/  
+│   └── MLE-Assignment.csv # The dataset file   
+├── src/   
+│   ├── processing_draft.py # Data preprocessing script   
+│   ├── model_training.py # Model building and training script   
+│   ├── evaluation.py # Model evaluation script   
+│   └── main.py # Main script to run the project    
+├── test_pipeline.py # Unit tests for the project   
+├── README.md # Project documentation   
+└── requirements.txt # Python dependencies  
 
 ### Installation
    ```Clone the repository:
