@@ -4,6 +4,7 @@ Analyzing and predicting the vomitoxin ppb value of a corn sample from hyperspec
 ### Project Structure
 CornSpectralDataset/   
 ├── data/  
+|   ├── imageio.ipynb # Contains data analysis
 │   └── MLE-Assignment.csv # The dataset file   
 ├── src/   
 │   ├── processing_draft.py # Data preprocessing script   
