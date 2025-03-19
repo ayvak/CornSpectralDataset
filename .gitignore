@@ -10,8 +10,6 @@ venv/
 .venv/
 env/
 .env/
-.venv_imageio_310/
-venv_imageio_310/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
