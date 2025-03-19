@@ -1,7 +1,7 @@
-# imageio
+## Prediction of vomitoxin levels for corn samples from hyperspectral data
 Analyzing and predicting the vomitoxin ppb value of a corn sample from hyperspectral data of corn
 
-**Project Structure**
+## Project Structure
 CornSpectralDataset/   
 │ ├── data/  
 │ └── MLE-Assignment.csv # The dataset file   
@@ -18,7 +18,7 @@ CornSpectralDataset/
  Clone the repository:
    ```sh
    git clone https://github.com/ayvak/CornSpectralDataset.git
-   cd CornSpectralDataset
+   cd CornSpectralDataset```
 
 ## Creating Virtual Environment with required libraries
 python -m venv venv
